@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rabbaanii-usaha/static/css/main.fbcc6c33.css",
-    "main.js": "/rabbaanii-usaha/static/js/main.89fe5840.js",
+    "main.js": "/rabbaanii-usaha/static/js/main.525b3349.js",
     "static/media/bg1.jpg": "/rabbaanii-usaha/static/media/bg1.2d44c1e161bd2bafad32.jpg",
     "static/media/logo-rabbaanii.png": "/rabbaanii-usaha/static/media/logo-rabbaanii.53fac10002e6af30cd7a.png",
     "index.html": "/rabbaanii-usaha/index.html",
     "main.fbcc6c33.css.map": "/rabbaanii-usaha/static/css/main.fbcc6c33.css.map",
-    "main.89fe5840.js.map": "/rabbaanii-usaha/static/js/main.89fe5840.js.map"
+    "main.525b3349.js.map": "/rabbaanii-usaha/static/js/main.525b3349.js.map"
   },
   "entrypoints": [
     "static/css/main.fbcc6c33.css",
-    "static/js/main.89fe5840.js"
+    "static/js/main.525b3349.js"
   ]
 }
