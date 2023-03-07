@@ -49,7 +49,7 @@ const Faq = () => {
               aria-expanded="false"
               aria-controls="collapseOne"
             >
-              Webiste apa ini?
+              Webiste apakah ini?
             </button>
           </h2>
           <div
@@ -201,8 +201,8 @@ const Faq = () => {
               <p>
                 Karena memang anak-anak siswa SMKI Rabbaanii tidak diperkenankan
                 untuk menggunakan Handphone pada hari biasanya (Senin - Sabtu).
-                Adapun mereka diizinkan menggunakan Handphone pada hari Ahad
-                saja
+                Adapun mereka diizinkan menggunakan Handphone pada{" "}
+                <b>hari Ahad</b> saja
               </p>
             </div>
           </div>

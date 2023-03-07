@@ -46,7 +46,7 @@ const Footer = () => {
             href="https://www.instagram.com/rabbaanii_official/"
             target="_blank"
             rel="noreferrer"
-            className="w-12 h-12 text-xl rounded-full p-2 border-2 transition duration-300 hover:btrg-fuchsia-700 hover:border-fuchsia-700 flex justify-center items-center"
+            className="w-12 h-12 text-xl rounded-full p-2 border-2 transition duration-300 hover:btrg-fuchsia-700 hover:border-fuchsia-700 hover:bg-fuchsia-600 flex justify-center items-center"
           >
             <i class="fa-brands fa-instagram"></i>
           </a>

@@ -34,7 +34,7 @@ const Usaha = () => {
         setLoading(false);
         setModalUsaha(data[0]);
         setFotoSLide(data[0].foto_usaha2);
-      }, 2500);
+      }, 1000);
       setLoading(true);
     } catch (error) {
       console.log(error);
@@ -300,8 +300,11 @@ const Usaha = () => {
                                     <img
                                       src={foto.imgUsaha}
                                       alt="foto usaha 1"
-                                      className="max-lg:rounded-md"
+                                      className="max-lg:rounded-md rounded-lg"
                                     />
+                                    <span className="absolute top-0 right-0 p-2 bg-red-700 text-white rounded-bl-lg rounded-tr-lg">
+                                      US - {modalUsaha.id}
+                                    </span>
                                   </SwiperSlide>
                                 ))}
                               </Swiper>
@@ -323,7 +326,8 @@ const Usaha = () => {
                                   Harga Mulai Dari
                                 </h2>
                                 <p className="font-medium">
-                                  Rp. {modalUsaha.harga}
+                                  Rp.{" "}
+                                  {modalUsaha ? "-" : <>{modalUsaha.harga}</>}
                                 </p>
                               </div>
 
@@ -352,6 +356,7 @@ const Usaha = () => {
                               href={`${modalUsaha.portfolio}`}
                               target="_blank"
                               type="button"
+                              rel="noreferrer"
                               class="px-6
         py-2.5
         bg-blue-600
@@ -507,7 +512,11 @@ const Usaha = () => {
                                     <img
                                       src={foto.imgUsaha}
                                       alt="foto usaha 1"
+                                      className="max-lg:rounded-md rounded-lg"
                                     />
+                                    <span className="absolute top-0 right-0 p-2 bg-red-700 text-white rounded-bl-lg rounded-tr-lg">
+                                      US - {modalUsaha.id}
+                                    </span>
                                   </SwiperSlide>
                                 ))}
                               </Swiper>
@@ -529,7 +538,8 @@ const Usaha = () => {
                                   Harga Mulai Dari
                                 </h2>
                                 <p className="font-medium">
-                                  Rp. {modalUsaha.harga}
+                                  Rp.{" "}
+                                  {modalUsaha ? "-" : <>{modalUsaha.harga}</>}
                                 </p>
                               </div>
 
@@ -558,6 +568,7 @@ const Usaha = () => {
                               href={`${modalUsaha.portfolio}`}
                               target="_blank"
                               type="button"
+                              rel="noreferrer"
                               class="px-6
         py-2.5
         bg-blue-600
@@ -712,7 +723,11 @@ const Usaha = () => {
                                     <img
                                       src={foto.imgUsaha}
                                       alt="foto usaha 1"
+                                      className="max-lg:rounded-md rounded-lg"
                                     />
+                                    <span className="absolute top-0 right-0 p-2 bg-red-700 text-white rounded-bl-lg rounded-tr-lg">
+                                      US - {modalUsaha.id}
+                                    </span>
                                   </SwiperSlide>
                                 ))}
                               </Swiper>
@@ -734,7 +749,8 @@ const Usaha = () => {
                                   Harga Mulai Dari
                                 </h2>
                                 <p className="font-medium">
-                                  Rp. {modalUsaha.harga}
+                                  Rp.{" "}
+                                  {modalUsaha ? "-" : <>{modalUsaha.harga}</>}
                                 </p>
                               </div>
 
@@ -762,6 +778,7 @@ const Usaha = () => {
                             <a
                               href={`${modalUsaha.portfolio}`}
                               target="_blank"
+                              rel="noreferrer"
                               type="button"
                               class="px-6
         py-2.5

@@ -36,7 +36,7 @@ function App() {
             innerCircleColor=""
             middleCircleColor=""
           />
-          <h2 className="font-semibold">Tunggu Sebentar Yaa...</h2>
+          <h2 className="font-semibold mt-3">Mohon Bersabar Yaa...</h2>
         </div>
       ) : (
         <>
